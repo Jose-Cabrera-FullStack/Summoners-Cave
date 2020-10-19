@@ -1,10 +1,14 @@
-import * as React from 'react';
-
+import * as React from "react";
+import { Div, Text } from "./style/index";
 
 const PrincipalViewPort = () => {
-    return (
-        <p>Fsunciona</p>
-    );
-  };
-  
-  export default (PrincipalViewPort);
+  return (
+    <>
+      <Div>
+        <Text theme={{ color: "red" }}>Prueba de contingencia</Text>
+      </Div>
+    </>
+  );
+};
+
+export default PrincipalViewPort;
