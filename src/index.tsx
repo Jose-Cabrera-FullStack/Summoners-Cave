@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { App } from './components/App';
+import  App  from './Routes/App';
 
 const app = document.getElementById('app');
 
-ReactDOM.render(<App title="TS CRUD"/>, app);
+ReactDOM.render(<App />, app);
