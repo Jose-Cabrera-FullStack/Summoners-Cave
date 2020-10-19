@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Div = styled.div`
-  background: black;
+  background: pink;
 `;
 const Text = styled.p`
   color: ${(props) => props.theme.color};

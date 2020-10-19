@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Div, Text } from "./style/index";
+import { Div, Text } from "./style";
 
 const PrincipalViewPort = () => {
   return (
