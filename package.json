@@ -1,16 +1,17 @@
 {
-  "name": "react-ts-crud",
+  "name": "summoners-cave",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "main": "webpack.config.ts",
   "scripts": {
     "start": "webpack-dev-server -d --open",
-    "build": "webpack -p --config "
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^14.11.10",
     "@types/react-router-dom": "^5.1.6",
     "@types/styled-components": "^5.1.4",
     "react": "^16.7.0",
