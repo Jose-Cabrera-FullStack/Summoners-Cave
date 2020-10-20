@@ -21,7 +21,22 @@ module.exports = {
       { enforce: "pre", test: /\.js$/, loader: "source-map-loader" },
       {
         test: /\.scss$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+        use: [
+          {
+            loader: "babel-loader",
+          },
+        ],
+      },
+      {
+        test: /\.(jpg|png)$/,
+        exclude: /node_modules/,
+        loader: "file-loader",
+        options: {
+          limit: 1024,
+          name: "[name].[ext]",
+          publicPath: "img/",
+          outputPath: "img/",
+        },
       },
     ],
   },
@@ -29,7 +44,6 @@ module.exports = {
     new HTMLWebpackPlugin({
       template: "public/index.html",
     }),
-    new MiniCssExtractPlugin("style.css"),
   ],
   // Enable sourcemaps for debugging webpack's output.
   devtool: "source-map",

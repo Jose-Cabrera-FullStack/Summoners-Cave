@@ -33,6 +33,7 @@
     "typescript": "^3.2.2",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "file-loader": "4.0.0"
   }
 }
