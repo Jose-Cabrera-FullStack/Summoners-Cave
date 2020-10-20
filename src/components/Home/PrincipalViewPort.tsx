@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Div, Text } from "./style";
 
-const Ekko = require("../../static/img/Ekko.png");
+const Ekko = require("../../static/Ekko.png");
 
 const PrincipalViewPort = () => {
   return (
