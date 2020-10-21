@@ -1,5 +1,13 @@
 import * as React from "react";
-import { Div, Title, SubTitle, DivGrid, ImgName } from "./style";
+import {
+  Div,
+  Title,
+  SubTitle,
+  DivGrid,
+  ImgName,
+  DivInformation,
+  Button,
+} from "./style";
 
 const Ekko: string = require("../../static/Home/Ekko.png");
 const Zac: string = require("../../static/Home/Zac-Nami-Jhin.png");
@@ -10,10 +18,11 @@ const PrincipalViewPort = () => {
   return (
     <>
       <Div>
-        <div>
+        <DivInformation>
           <Title theme={{ color: "red" }}>Se el Mejor Player</Title>
-          <SubTitle>Hola</SubTitle>
-        </div>
+          <SubTitle>Queremos impulsar el E-Sport en Latinoamérica </SubTitle>
+          <Button>Call to action</Button>
+        </DivInformation>
         <DivGrid>
           <ImgName
             theme={{ name: "Ekko" }}
