@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Title, SubTitle, DivInformation } from "./../style";
+import { Title, SubTitle, DivInformation } from "../style/PrincipalViewPort";
 
 import Button from "../../Utils/Button/Button";
 

@@ -18,12 +18,14 @@ const FontStyleCSS = {
 const ColorStyleCSS = {
   colorPrimary: "#E01AC7",
   colorSecondary: "#56FFFB",
-  colorAssistant: "#454ADE",
+  colorAssistant: "#1B1F3B",
   colorBlack: "#090A13",
   colorGray: "#767B9E",
   colorWhite: "#F8F8FC",
 };
 
-const ButtonStyleCSS = {};
+const MarginStyleCss = {
+  standartMargin: "1.5em",
+};
 
-export { ColorStyleCSS, FontStyleCSS, ButtonStyleCSS };
+export { ColorStyleCSS, FontStyleCSS, MarginStyleCss };

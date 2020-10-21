@@ -1,8 +1,11 @@
 import * as React from "react";
-import Principal from "../Components/Home/PrincipalViewPort";
-import Header from "../Components/Layout/Header";
 import { Div } from "./Style/Home";
 import { GlobalStyle } from "../Style/Global";
+import Header from "../Components/Layout/Header";
+import Principal from "../Components/Home/PrincipalViewPort";
+import WayOfTeaching from "../Components/Home/WayOfTeaching";
+import Anuncio from "../Components/Layout/Anuncio";
+import WhatIsSummonersCave from "../Components/Home/WhatIsSummonersCave";
 
 const Home = () => {
   return (
@@ -10,7 +13,9 @@ const Home = () => {
       <GlobalStyle />
       <Header />
       <Principal />
-      <Principal />
+      <WayOfTeaching />
+      <Anuncio />
+      <WhatIsSummonersCave />
     </Div>
   );
 };

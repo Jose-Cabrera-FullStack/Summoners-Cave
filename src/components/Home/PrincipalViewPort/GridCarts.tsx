@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Div, DivGrid, ImgName } from "./../style";
+import { Div, DivGrid, ImgName } from "../style/PrincipalViewPort";
 
 const Ekko: string = require("../../../static/Home/Ekko.png");
 const Zac: string = require("../../../static/Home/Zac-Nami-Jhin.png");

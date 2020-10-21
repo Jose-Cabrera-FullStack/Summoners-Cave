@@ -1,10 +1,9 @@
 import * as React from "react";
-import { Div, UL, H1, LI, Blurry } from "./style/Header";
+import { Div, UL, H1, LI } from "./style/Header";
 
 const Header = () => {
   return (
     <>
-      <Blurry></Blurry>
       <Div>
         <UL>
           <LI>cursos</LI>

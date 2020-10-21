@@ -3,7 +3,7 @@ import { ColorStyleCSS, FontStyleCSS } from "../../../Style/Variables";
 
 const Div = styled.div`
   display: flex;
-  margin: 3em;
+  margin: 7em 3em 0px 3em;
   place-content: space-between;
 `;
 
