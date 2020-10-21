@@ -1,9 +1,23 @@
 import styled from "styled-components";
 
-const Div = styled.div`
+const Div = styled.nav`
   background: transparent;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  filter: none;
+`;
+
+const Blurry = styled.div`
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  overflow: hidden;
+  position: fixed;
+  filter: blur(4px);
 `;
 const UL = styled.ul`
   display: flex;
@@ -26,4 +40,4 @@ const H1 = styled.h1`
   font-family: "Montserrat Subrayada", sans-serif;
 `;
 
-export { Div, UL, H1, LI };
+export { Div, UL, H1, LI, Blurry };

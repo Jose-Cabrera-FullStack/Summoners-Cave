@@ -19,7 +19,7 @@ const ColorStyleCSS = {
   colorPrimary: "#E01AC7",
   colorSecondary: "#56FFFB",
   colorAssistant: "#454ADE",
-  colorBlack: "#1B1F3B",
+  colorBlack: "#090A13",
   colorGray: "#767B9E",
   colorWhite: "#F8F8FC",
 };

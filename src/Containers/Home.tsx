@@ -10,6 +10,7 @@ const Home = () => {
       <GlobalStyle />
       <Header />
       <Principal />
+      <Principal />
     </Div>
   );
 };

@@ -46,23 +46,5 @@ const DivGrid = styled.div`
 const ImgName = styled.img`
   grid-area: ${(props) => props.theme.name};
 `;
-const Button = styled.button`
-  width: 362px;
-  border-radius: 5px;
-  box-shadow: 0 0 6px 0 #56fffb;
-  border: solid 2px #56fffb;
-  background-color: #56fffb;
-  height: 70px;
-  text-shadow: 0 0 2px #0d0e1a;
-  font-family: Nunito;
-  font-size: 35px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.34;
-  letter-spacing: normal;
-  text-align: center;
-  color: #0d0e1a;
-`;
 
-export { Div, Title, SubTitle, DivGrid, ImgName, DivInformation, Button };
+export { Div, Title, SubTitle, DivGrid, ImgName, DivInformation };
