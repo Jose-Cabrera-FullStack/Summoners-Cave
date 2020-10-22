@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Div } from "./style/WhatIsSummonersCave";
-import Carts from "./WayOfTeaching/Carts";
+
 const WhatIsSummonersCave = () => {
   return (
     <Div>

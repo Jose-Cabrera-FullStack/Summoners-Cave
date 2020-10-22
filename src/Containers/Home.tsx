@@ -6,6 +6,7 @@ import Principal from "../Components/Home/PrincipalViewPort";
 import WayOfTeaching from "../Components/Home/WayOfTeaching";
 import Anuncio from "../Components/Layout/Anuncio";
 import WhatIsSummonersCave from "../Components/Home/WhatIsSummonersCave";
+import LastCourses from "../Components/Home/LastCourses";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <WayOfTeaching />
       <Anuncio />
       <WhatIsSummonersCave />
+      <LastCourses />
     </Div>
   );
 };
